@@ -35,7 +35,7 @@ RUN apk update  \
            "/etc/php7/php.ini" \
        \
     && rm -f index.html \
-    && git clone https://github.com/DanielnetoDotCom/YouPHPTube.git \
+    && git clone https://github.com/WWBN/AVideo.git \
     && mv YouPHPTube/* . \
     && mv YouPHPTube/.[!.]* . \
     && rm -rf YouPHPTube \
