@@ -17,7 +17,7 @@ services:
     restart: always
 
   encoder:
-    image: leejoneshane/youphptube-encoder
+    image: ronaldod/avideo-encoder
     container_name: encoder
     environment:
       SITE_TITLE: I_love_videos
@@ -37,7 +37,7 @@ services:
   
   youphptube:
     image: ronaldod/avideo
-    container_name: utube
+    container_name: avideo
     environment:
       SITE_TITLE: I_love_videos
       DOMAIN: fqdn_of_the_server
