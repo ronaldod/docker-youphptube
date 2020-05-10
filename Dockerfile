@@ -36,9 +36,9 @@ RUN apk update  \
        \
     && rm -f index.html \
     && git clone https://github.com/WWBN/AVideo.git \
-    && mv YouPHPTube/* . \
-    && mv YouPHPTube/.[!.]* . \
-    && rm -rf YouPHPTube \
+    && mv Avideo/* . \
+    && mv Avideo/.[!.]* . \
+    && rm -rf Avideo \
     && chmod a+rx /usr/local/bin/entrypoint.sh \
     && chmod a+rx /usr/local/bin/gencerts.sh \
     && mkdir videos \
