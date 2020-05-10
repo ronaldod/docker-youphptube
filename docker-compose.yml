@@ -36,7 +36,7 @@ services:
     restart: always
   
   youphptube:
-    image: leejoneshane/youphptube
+    image: ronaldod/avideo
     container_name: utube
     environment:
       SITE_TITLE: I_love_videos
