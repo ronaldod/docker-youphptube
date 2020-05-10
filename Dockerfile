@@ -48,4 +48,3 @@ RUN apk update  \
 VOLUME ["/var/www/localhost/htdocs/videos"]
 EXPOSE 80 443
 CMD ["entrypoint.sh"]
-CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
