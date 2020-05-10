@@ -28,4 +28,5 @@ fi
 chown -R apache:apache /var/www
 
 rm -f /run/apache2/httpd.pid
+sleep 5
 exec httpd -DFOREGROUND "$@"
