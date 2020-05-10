@@ -1,6 +1,6 @@
 # docker-youphptube
 
-This is a docker image to run Avdideo v7.8 in LXC.
+This is a docker image to run Avdideo v8.8 in LXC.
 
 # YouPHPTube
 YouPHPTube! is an video-sharing website, It is an open source solution that is freely available to everyone. With YouPHPTube you can create your own video sharing site, YouPHPTube will help you import and encode videos from other sites like Youtube, Vimeo, etc. and you can share directly on your website. In addition, you can use Facebook or Google login to register users on your site. The service was created in march 2017. [more detail...](https://github.com/WWBN/AVideo)
@@ -34,7 +34,7 @@ docker run --name utube
 -e LANG=en
 -p 80:80
 -p 443:443
--d ronaldod/youphptube
+-d ronaldod/avideo
 ```
 You may want to change the default language, use the parameters -e LANG=your_country.
 
@@ -59,5 +59,5 @@ docker run --name encoder
 -e LANG=en
 -p 8000:80
 -p 8443:443
--d leejoneshane/youphptube-encoder
+-d ronaldod/youphptube-encoder
 ```
