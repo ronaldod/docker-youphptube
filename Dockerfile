@@ -45,8 +45,6 @@ RUN apk update  \
     && chmod 755 videos \
     && chown -R apache:apache /var/www
 
-ADD tw.php /var/www/localhost/htdocs/locale
-
 VOLUME ["/var/www/localhost/htdocs/videos"]
 EXPOSE 80 443
 CMD ["entrypoint.sh"]
