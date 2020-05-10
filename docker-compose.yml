@@ -27,10 +27,10 @@ services:
       DB_HOST: db
       DB_USER: root
       DB_PASSWORD: your_db_password
-      LANG: tw
+      LANG: en
     ports:
-      - "80:80"
-      - "443:443"
+      - "8000:80"
+      - "8443:443"
     links:
       - mysql:db
     restart: always
@@ -46,10 +46,10 @@ services:
       DB_HOST: db
       DB_USER: root
       DB_PASSWORD: your_db_password
-      LANG: tw
+      LANG: en
     ports:
-      - "8000:80"
-      - "8443:443"
+      - "80:80"
+      - "443:443"
     links:
       - mysql:db
     restart: always
