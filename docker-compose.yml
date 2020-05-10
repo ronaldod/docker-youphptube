@@ -42,6 +42,7 @@ services:
       SITE_TITLE: I_love_videos
       DOMAIN: fqdn_of_the_server
       DOMAIN_PROTOCOL: http
+      ADMIN_PASSWORD: password
       ADMIN_EMAIL: your_email
       DB_HOST: db
       DB_USER: root
