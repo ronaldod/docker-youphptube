@@ -25,7 +25,7 @@ if [[ "${DOMAIN}" != "your.domain" && "${DB_HOST}" != "localhost" ]]; then
   fi
 fi
 
-chown - apache:apache /var/www/localhost/htdocs/videos/configuration.php
+chown apache:apache /var/www/localhost/htdocs/videos/configuration.php
 
 rm -f /run/apache2/httpd.pid
 
